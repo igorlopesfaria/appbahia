@@ -3,7 +3,7 @@ package br.com.bahiaapp.model;
 import java.io.Serializable;
 
 /**
- * Created by Igor Faria on 27/12/17.
+ * Created by Igor Faria on 02/01/18.
  */
 public class Feed implements Serializable{
 

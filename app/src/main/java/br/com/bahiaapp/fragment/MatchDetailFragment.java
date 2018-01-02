@@ -22,9 +22,6 @@ import java.util.List;
 import br.com.bahiaapp.R;
 import br.com.bahiaapp.Util;
 import br.com.bahiaapp.adapter.MatchActionListAdapter;
-import br.com.bahiaapp.adapter.MatchListAdapter;
-import br.com.bahiaapp.listener.RecyclerItemClickListener;
-import br.com.bahiaapp.model.Feed;
 import br.com.bahiaapp.model.Match;
 import br.com.bahiaapp.model.MatchAction;
 

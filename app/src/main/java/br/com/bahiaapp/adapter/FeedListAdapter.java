@@ -16,7 +16,7 @@ import br.com.bahiaapp.R;
 import br.com.bahiaapp.model.Feed;
 
 /**
- * Created by Igor Faria on 27/12/17.
+ * Created by Igor Faria on 02/01/18.
  */
 public class FeedListAdapter extends RecyclerView.Adapter<FeedListAdapter.ViewHolder> {
 

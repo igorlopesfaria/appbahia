@@ -22,7 +22,7 @@ import br.com.bahiaapp.model.MatchAction;
 import br.com.bahiaapp.model.MatchActionType;
 
 /**
- * Created by Igor Faria on 27/12/17.
+ * Created by Igor Faria on 02/01/18.
  */
 public class MatchActionListAdapter extends RecyclerView.Adapter<MatchActionListAdapter.ViewHolder> {
     private List<MatchAction> lMatchAction;

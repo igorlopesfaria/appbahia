@@ -17,7 +17,7 @@ import br.com.bahiaapp.R;
 import br.com.bahiaapp.model.Match;
 
 /**
- * Created by Igor Faria on 27/12/17.
+ * Created by Igor Faria on 02/01/18.
  */
 public class MatchListAdapter extends RecyclerView.Adapter<MatchListAdapter.ViewHolder> {
     private List<Match> lMatch;

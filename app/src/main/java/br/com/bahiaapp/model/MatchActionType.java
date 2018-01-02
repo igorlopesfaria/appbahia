@@ -1,7 +1,7 @@
 package br.com.bahiaapp.model;
 
 /**
- * Created by root on 02/01/18.
+ * Created by Igor Faria on 02/01/18.
  */
 
 public enum MatchActionType {

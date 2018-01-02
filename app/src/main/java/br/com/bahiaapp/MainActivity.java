@@ -16,7 +16,7 @@ import br.com.bahiaapp.fragment.MatchListFragment;
 import br.com.bahiaapp.model.Feed;
 
 /**
- * Created by Igor Faria on 27/12/17.
+ * Created by Igor Faria on 02/01/18.
  */
 public class MainActivity extends AppCompatActivity  implements NavigationView.OnNavigationItemSelectedListener {
 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/news"
+        android:title="@string/news"
+        android:icon="@drawable/feed"/>
+
+    <item
+        android:id="@+id/matches"
+        android:title="@string/matches"
+        android:icon="@drawable/calendar"/>
+
+    <item
+        android:id="@+id/interviews"
+        android:title="@string/interviews"
+        android:icon="@drawable/microphone"/>
+
+    <item
+        android:id="@+id/live"
+        android:title="@string/live"
+        android:icon="@drawable/live"/>
+
+    <item
+        android:id="@+id/chart"
+        android:title="@string/chart"
+        android:icon="@drawable/chart"/>
+
+    <item
+        android:id="@+id/notification"
+        android:title="@string/notification"
+        android:icon="@drawable/notification"/>
+
+
+</menu>

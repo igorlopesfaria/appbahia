@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="text_dark">#282828</color>
+    <color name="text">#5f656e</color>
+    <color name="black_transparent">#70000000</color>
+    <color name="black_transparent_video">#90000000</color>
+    <color name="backgroud_main">#efefef</color>
+
+</resources>

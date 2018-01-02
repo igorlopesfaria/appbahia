@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BahiaApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="no_news">Nenhum notícia encontrada no momento.</string>
+    <string name="loading_feed">Carregando notícias...</string>
+    <string name="title_activity_laucher">LaucherActivity</string>
+
+
+    <string name="navigation_drawer_open">Abrir Menu </string>
+    <string name="navigation_drawer_close">Fechar Menu </string>
+    <string name="published">Publicado: </string>
+
+
+    <string name="news">Notícias</string>
+    <string name="matches">Partidas</string>
+    <string name="interviews">Entrevistas</string>
+    <string name="live">Transmissão</string>
+    <string name="chart">Estatisticas</string>
+    <string name="notification">Notificações</string>
+
+
+</resources>

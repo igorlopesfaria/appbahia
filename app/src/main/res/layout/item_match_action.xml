@@ -1,0 +1,151 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:id="@+id/mainInfoCard"
+    android:elevation="3dp"
+    app:cardCornerRadius="4dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/titleTXV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="DEFESA DA PORRA"
+            android:textColor="@color/text_dark"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/homeActionLayout"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleTXV">
+
+
+            <LinearLayout
+                android:id="@+id/timeTypeHomeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                >
+
+                <TextView
+                    android:id="@+id/timeHomeTXV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="23' 1°T"
+                    android:textColor="@color/text_dark"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/typeActionHomeIMG"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:src="@drawable/icon_goal_keeper" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/descriptionHomeTXV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/timeTypeHomeLayout"
+                android:text="te Douglas."
+                android:textColor="@color/text" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/awayActionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:visibility="visible"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleTXV">
+
+            <LinearLayout
+                android:id="@+id/timeTypeAwayLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                >
+
+                <TextView
+                    android:id="@+id/timeAwayTXV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="23' 1°T"
+                    android:textColor="@color/text_dark"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/typeActionAwayIMG"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:src="@drawable/icon_goal_keeper" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/descriptionAwayTXV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/timeTypeAwayLayout"
+                android:text="te Douglas."
+                android:gravity="end"
+                android:textColor="@color/text" />
+        </RelativeLayout>
+
+                       <TextView
+                           android:visibility="gone"
+                           android:id="@+id/descriptionTXV"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           app:layout_constraintBottom_toBottomOf="parent"
+                           app:layout_constraintEnd_toEndOf="parent"
+                           app:layout_constraintStart_toStartOf="parent"
+                           app:layout_constraintTop_toBottomOf="@+id/titleTXV"
+                           android:gravity="center"
+                           android:layout_marginBottom="8dp"
+                           android:layout_marginEnd="8dp"
+                           android:layout_marginStart="8dp"
+                           android:text="Time do interior chega pela primeira vez com perigo na área do Bahia em bola lançada na árae com defesa em dois tempos do goleiro estreante Douglas."
+                           android:textColor="@color/text" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>
